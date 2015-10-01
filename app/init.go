@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/dbenson24/revel-testing/db"
+	"github.com/dbenson24/revel-testing/mongodb"
 	"github.com/revel/revel"
 )
 
@@ -24,7 +24,7 @@ func init() {
 
 	// register startup functions with OnAppStart
 	// ( order dependent )
-	revel.OnAppStart(db.InitDB)
+	revel.OnAppStart(mongodb.InitDB)
 	// revel.OnAppStart(FillCache)
 }
 
