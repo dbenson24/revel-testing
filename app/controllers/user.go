@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/dbenson24/revel-testing/mongodb"
+	"github.com/dbenson24/revel-testing/util/mongodb"
 	"github.com/revel/revel"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

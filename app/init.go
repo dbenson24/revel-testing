@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/dbenson24/revel-testing/mongodb"
+	"github.com/dbenson24/revel-testing/util/mongodb"
 	"github.com/revel/revel"
 )
 

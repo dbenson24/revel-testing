@@ -6,7 +6,7 @@ module:testrunner
 
 GET     /                                       App.Index
 GET     /users                                  User.Index
-
+WS      /feed                                   Socket.Feed
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
